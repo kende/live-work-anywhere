@@ -33,7 +33,7 @@ gem 'unicorn'
 
 # Use powder to manage pow
 group :test, :development do
-  gem install 'powder'
+  gem 'powder'
 end
 
 # Deploy with Capistrano
